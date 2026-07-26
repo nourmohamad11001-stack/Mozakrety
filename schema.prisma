@@ -48,7 +48,7 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
-/* ---------------- App models ---------------- */
+// ---------------- App models ---------------- 
 
 model User {
   id            String    @id @default(cuid())
