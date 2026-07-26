@@ -11,7 +11,7 @@ datasource db {
   directUrl = env("DIRECT_URL")     // direct connection - used for migrations
 }
 
-/* ---------------- NextAuth required models ---------------- */
+// ---------------- NextAuth required models ---------------- 
 
 model Account {
   id                String  @id @default(cuid())
